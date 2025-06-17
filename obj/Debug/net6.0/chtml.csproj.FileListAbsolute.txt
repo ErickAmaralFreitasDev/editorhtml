@@ -1,0 +1,15 @@
+/home/maul/Documents/chtml/chtml/bin/Debug/net6.0/chtml
+/home/maul/Documents/chtml/chtml/bin/Debug/net6.0/chtml.deps.json
+/home/maul/Documents/chtml/chtml/bin/Debug/net6.0/chtml.runtimeconfig.json
+/home/maul/Documents/chtml/chtml/bin/Debug/net6.0/chtml.dll
+/home/maul/Documents/chtml/chtml/bin/Debug/net6.0/ref/chtml.dll
+/home/maul/Documents/chtml/chtml/bin/Debug/net6.0/chtml.pdb
+/home/maul/Documents/chtml/chtml/obj/Debug/net6.0/chtml.csproj.AssemblyReference.cache
+/home/maul/Documents/chtml/chtml/obj/Debug/net6.0/chtml.GeneratedMSBuildEditorConfig.editorconfig
+/home/maul/Documents/chtml/chtml/obj/Debug/net6.0/chtml.AssemblyInfoInputs.cache
+/home/maul/Documents/chtml/chtml/obj/Debug/net6.0/chtml.AssemblyInfo.cs
+/home/maul/Documents/chtml/chtml/obj/Debug/net6.0/chtml.csproj.CoreCompileInputs.cache
+/home/maul/Documents/chtml/chtml/obj/Debug/net6.0/chtml.dll
+/home/maul/Documents/chtml/chtml/obj/Debug/net6.0/ref/chtml.dll
+/home/maul/Documents/chtml/chtml/obj/Debug/net6.0/chtml.pdb
+/home/maul/Documents/chtml/chtml/obj/Debug/net6.0/chtml.genruntimeconfig.cache
