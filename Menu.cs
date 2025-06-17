@@ -14,6 +14,8 @@ namespace chtml
             DrawScreen();
             WriteOptions();
             Console.ResetColor();
+
+            var option = short.Parse(Console.ReadLine());
         }
 
         public static void DrawScreen()
@@ -59,7 +61,9 @@ namespace chtml
             Console.Write("2. Open File");
             Console.SetCursorPosition(10, 5);
             Console.Write("3. Exit");
-            Console.SetCursorPosition(1, 13);
+            Console.SetCursorPosition(9, 7);
+            Console.Write("Select an option: ");
+            // Console.SetCursorPosition(1, 13);
 
         }
 
