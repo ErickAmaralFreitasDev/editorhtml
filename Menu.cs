@@ -16,6 +16,7 @@ namespace chtml
             Console.ResetColor();
 
             var option = short.Parse(Console.ReadLine());
+            HandleMenuOption(option);
         }
 
         public static void DrawScreen()
@@ -60,11 +61,31 @@ namespace chtml
             Console.SetCursorPosition(10, 4);
             Console.Write("2. Open File");
             Console.SetCursorPosition(10, 5);
-            Console.Write("3. Exit");
+            Console.Write("0. Exit");
             Console.SetCursorPosition(9, 7);
             Console.Write("Select an option: ");
             // Console.SetCursorPosition(1, 13);
 
+        }
+
+        public static void HandleMenuOption(short option)
+        {
+            switch (option)
+            {
+                case 1: Editor.Show(); break;
+                case 2: Console.WriteLine("View"); break;
+                case 0:
+                    {
+                        Console.Clear();
+                        Environment.Exit(0);
+                        break;
+                    }
+                default:
+                    {
+                        Show();
+                        break;        
+                    }
+            }
         }
 
     }
