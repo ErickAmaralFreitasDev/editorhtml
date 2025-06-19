@@ -14,7 +14,6 @@ namespace chtml
             DrawScreen();
             WriteOptions();
             Console.ResetColor();
-
             var option = short.Parse(Console.ReadLine());
             HandleMenuOption(option);
         }
@@ -64,8 +63,6 @@ namespace chtml
             Console.Write("0. Exit");
             Console.SetCursorPosition(9, 7);
             Console.Write("Select an option: ");
-            // Console.SetCursorPosition(1, 13);
-
         }
 
         public static void HandleMenuOption(short option)
@@ -83,7 +80,7 @@ namespace chtml
                 default:
                     {
                         Show();
-                        break;        
+                        break;
                     }
             }
         }

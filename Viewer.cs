@@ -14,10 +14,10 @@ namespace chtml
             Console.WriteLine("Welcome to the HTML Viewer!");
             Console.WriteLine("---------------------------");
             Replace(text);
-            Console.WriteLine(text);
             Console.WriteLine("---------------------------");
             Console.ReadKey();
             Menu.Show();
+            //teste teste <strong>teste</strong> teste
         }
 
         public static void Replace(string text)
