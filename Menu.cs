@@ -10,12 +10,11 @@ namespace chtml
             Console.Clear();
             Console.BackgroundColor = ConsoleColor.Blue;
             Console.ForegroundColor = ConsoleColor.Black;
-
             DrawScreen();
             WriteOptions();
-            Console.ResetColor();
             var option = short.Parse(Console.ReadLine());
             HandleMenuOption(option);
+            Console.ResetColor();
         }
 
         public static void DrawScreen()
@@ -73,6 +72,12 @@ namespace chtml
                 case 2: Console.WriteLine("View"); break;
                 case 0:
                     {
+                        Console.Clear();
+                        Console.BackgroundColor = ConsoleColor.Blue;
+                        Console.ForegroundColor = ConsoleColor.Black;
+                        Console.SetCursorPosition(10, 5);
+                        Console.WriteLine("Programa encerrado. Até logo!");
+                        Thread.Sleep(2000); 
                         Console.Clear();
                         Environment.Exit(0);
                         break;

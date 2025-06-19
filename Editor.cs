@@ -23,7 +23,8 @@ namespace chtml
             {
                 file.Append(Console.ReadLine());
                 file.Append(Environment.NewLine);
-            } while (Console.ReadKey().Key != ConsoleKey.Escape);
+            }
+            while (Console.ReadKey().Key != ConsoleKey.Escape);
 
             Console.WriteLine("--------------");
             Console.WriteLine("Want to save your file?");
