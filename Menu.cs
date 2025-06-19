@@ -76,8 +76,8 @@ namespace chtml
                         Console.BackgroundColor = ConsoleColor.Blue;
                         Console.ForegroundColor = ConsoleColor.Black;
                         Console.SetCursorPosition(10, 5);
-                        Console.WriteLine("Programa encerrado. Até logo!");
-                        Thread.Sleep(2000); 
+                        Console.WriteLine("Exiting application. Bye!");
+                        Thread.Sleep(2000);
                         Console.Clear();
                         Environment.Exit(0);
                         break;
